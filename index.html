@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mi sitio web para la clase de web development"
+    />
+    <meta name="author" content="Santiago Bergerat" />
+
+    <title>Inicio | WDD 231</title>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 768px)" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img
+        src="images/header-images/profile-santiago.jpg"
+        alt="Santiago Bergerat"
+        width="60"
+        height="60"
+      />
+        <span>Bergerat Santiago</span>
+        <button id="menuButton">&#9776;</button>
+      </div>
+
+      <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="final/index.html">Final</a>
+        <a href="https://github.com/Yago030" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/santiago-bergerat-797b7b1ba/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </nav>
+    </header>
+
+    <div <div id="overlay"></div>
+
+    <main>
+        <div class="title-hero">
+          <h1>WDD 231: Desarrollo web frontend I</h1>
+        </div>
+      
+        <div class="about-contact">
+          <section class="info-section">
+            <h2>About Me</h2>
+            <p>
+              I am a passionate student of web development with a focus on frontend. I am learning to combine good design with accessible and responsive functionality.
+            </p>
+          </section>
+      
+          <section class="info-section">
+            <h2>Contact</h2>
+            <p>
+              You can reach me via GitHub or LinkedIn. Always open to collaborations or feedback.
+            </p>
+          </section>
+        </div>
+      
+        <section>
+          <div class="subtitle-hero">
+            <h2>Certificación: Web and Computer Programming</h2>
+      
+            <div class="filter-buttons">
+              <button id="allBtn">Todos</button>
+              <button id="wddBtn">WDD</button>
+              <button id="cseBtn">CSE</button>
+            </div>
+            <p class="indicator-credit">Total de créditos mostrados: <span id="totalCredits">0</span></p>
+          </div>
+          <div id="courses"></div>
+        </section>
+      </main>
+      
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Santiago Bergerat | Argentina</p>
+      <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/mock/data-courses.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+  </body>
+</html>

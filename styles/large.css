@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+    #menuButton,
+    #overlay {
+      display: none !important;
+    }
+  
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .profile{
+        border: none;
+    }
+
+    .profile span{
+        font-size: clamp(0.8rem, 3vw, 1.5rem);
+
+    }
+
+    #mainNav {
+      position: static;
+      display: flex !important;
+      flex-direction: row;
+      gap: 1rem;
+      height: auto;
+      background: none;
+      padding: 0;
+      justify-content: flex-end;
+      font-size: clamp(0.8rem, 3vw, 1.5rem);
+    }
+  
+    #mainNav a {
+        color: #e04d37;
+        font-size: clamp(0.6rem, 3vw, 1.5rem);
+
+    }
+
+    #courses {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+    
+      .course-card {
+        margin: 0; 
+      }
+
+
+      .about-contact {
+        display: flex;
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+      
+      .about-contact .info-section {
+        flex: 1;
+      }
+      
+  }
+  

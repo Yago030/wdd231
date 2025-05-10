@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #c41800; 
+    --secondary-color: #d67600; 
+    --background-color: #f9f9f9;
+    --text-color: #333333; 
+    --hover-color: #d62828;
+    --font-title: "Montserrat", sans-serif;
+    --font-body: "Roboto", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    font-family: var(--font-title);
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  
+  p,
+  li,
+  a,
+  small {
+    font-family: var(--font-body);
+    font-weight: 300;
+    color: #333333; 
+
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+  }
+  
+  #overlay.visible {
+    display: block;
+  }
+  
+  header {
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  #menuButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #mainNav {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 10;
+    transition: right 0.3s ease;
+  }
+  
+  #mainNav.open {
+    right: 0;
+  }
+  
+  #mainNav a {
+    margin: 1rem 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .profile {
+    border: solid var(--text-color) 1px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    justify-content: space-between;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+  }
+  
+  .title-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    font-size: clamp(0.8rem, 3vw, 1.5rem);
+  }
+  
+  .subtitle-hero {
+    font-size: clamp(0.6rem, 3vw, 1.1rem);
+    padding-left: 1rem;
+  }
+  
+  .filter-buttons {
+    text-align: center;
+  }
+  
+  .filter-buttons button {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .filter-buttons button.selected {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .indicator-credit {
+    font-size: clamp(0.8rem, 3vw, 1.5rem);
+  }
+  
+  #totalCredits {
+    color: var(--primary-color);
+  }
+  
+  #courses {
+    min-height: 300px;
+  }
+
+  .course-card {
+    border-left: 2px solid var(--primary-color);
+    border-right: 2px solid var(--primary-color);
+    padding: 2rem 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .course-card h3 {
+    font-weight: 400;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .course-card.completed {
+    background-color: #d5d8cf67;
+    color: black;
+    border-left: 2px solid var(--primary-color);
+    border-right: 2px solid var(--primary-color);
+  }
+  
+  .info-section {
+    margin: 1.5rem 1rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    min-height: 150px;
+
+  }
+  
+  .info-section h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-weight: 400;
+  }
+  
+  .info-section p {
+    line-height: 1.5;
+    margin: 0.5rem 0 0;
+
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--primary-color);
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0.3rem 0;
+  }
+  
