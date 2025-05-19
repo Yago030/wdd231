@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #264653;
-  --secondary-color: #2a9d8f;
-  --accent-color: #e9c46a;
-  --hover-color: #e76f51;
-  --background-color: #f4f4f4;
-  --text-color: #333333;
+  --primary-color: #7a3b2e;
+  --secondary-color: #c2a83e;
+  --accent-color: #f5e7c1;
+  --hover-color: #b66b55;
+  --background-color: #fdfcf9;
+  --text-color: #2d2d2d; 
   --font-title: "Montserrat", sans-serif;
   --font-body: "Roboto", sans-serif;
 }
@@ -17,13 +17,22 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
   font-family: var(--font-title);
   font-weight: 400;
   color: var(--primary-color);
 }
 
-p, li, a, small {
+p,
+li,
+a,
+small {
   font-family: var(--font-body);
   font-weight: 300;
   color: var(--text-color);
@@ -33,6 +42,13 @@ a:hover {
   color: var(--hover-color);
 }
 
+.buttons-container{
+  display: flex;
+  padding:1rem 0;
+  justify-content: space-around;
+}
+
+
 button {
   background-color: var(--secondary-color);
   color: white;
@@ -40,18 +56,27 @@ button {
   padding: 0.6rem 1rem;
   font-family: var(--font-title);
   cursor: pointer;
+  width: 160px;
 }
 
 button:hover {
   background-color: var(--hover-color);
 }
+
+button.active {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+
 #directory {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;
 }
-
 
 #directory img {
   width: 100%;
@@ -62,4 +87,33 @@ button:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#directory.grid section img {
+  display: block;
+}
+#directory.list section img {
+  display: none;
+}
+#directory.grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#directory.list {
+  display: block;
+}
+#directory.list section {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
 
+#directory.list h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+#directory.list p {
+  margin: 0.2rem 0;
+}

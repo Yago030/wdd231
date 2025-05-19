@@ -47,14 +47,21 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
 
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/large.css" media="screen and (min-width: 768px)" />
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 768px)"
+    />
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
-
+    <script src="scripts/behaviors.js" defer></script>
   </head>
 
   <body>
@@ -69,6 +76,11 @@
         <a href="questions.html">FAQ</a>
       </nav>
     </header>
+
+    <div class="buttons-container">
+      <button id="gridBtn" aria-label="Grid view">Grid</button>
+      <button id="listBtn" aria-label="List view">List</button>
+    </div>
 
     <main id="directory"></main>
 
