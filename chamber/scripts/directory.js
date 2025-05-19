@@ -1,4 +1,4 @@
-const url = 'data/members.json';
+const url = "data/members.json";
 
 const displayMembers = (members) => {
   const container = document.querySelector("#directory");
@@ -10,11 +10,10 @@ const displayMembers = (members) => {
     name.textContent = member.name;
 
     const logo = document.createElement("img");
-    logo.setAttribute("src", `images/${member.logo}`);
+    logo.setAttribute("src", `${member.logo}`);
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
-    logo.setAttribute("width", "300");
-    logo.setAttribute("height", "200");
+    logo.classList.add("business-logo");
 
     const shortDesc = document.createElement("p");
     shortDesc.textContent = member.shortDescription;
@@ -43,7 +42,7 @@ async function getMembers() {
   try {
     const response = await fetch(url);
     const data = await response.json();
-    // console.table(data); 
+    // console.table(data);
     displayMembers(data);
   } catch (error) {
     console.error("Error loading members:", error);
