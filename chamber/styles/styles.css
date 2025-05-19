@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #264653;
+  --secondary-color: #2a9d8f;
+  --accent-color: #e9c46a;
+  --hover-color: #e76f51;
+  --background-color: #f4f4f4;
+  --text-color: #333333;
+  --font-title: "Montserrat", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-body);
+  color: var(--text-color);
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  font-family: var(--font-title);
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+p, li, a, small {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-family: var(--font-title);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}

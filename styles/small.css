@@ -26,7 +26,7 @@
   small {
     font-family: var(--font-body);
     font-weight: 300;
-    color: #333333; 
+    color: var(--text-color); 
 
   }
   
