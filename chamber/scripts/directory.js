@@ -5,6 +5,7 @@ const displayMembers = (members) => {
 
   members.forEach((member) => {
     const card = document.createElement("section");
+    card.classList.add("card");
 
     const name = document.createElement("h2");
     name.textContent = member.name;
@@ -13,6 +14,8 @@ const displayMembers = (members) => {
     logo.setAttribute("src", `${member.logo}`);
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
+    logo.setAttribute("width", "400");
+    logo.setAttribute("height", "200");
     logo.classList.add("business-logo");
 
     const shortDesc = document.createElement("p");
@@ -50,6 +53,3 @@ async function getMembers() {
 }
 
 getMembers();
-
-
-

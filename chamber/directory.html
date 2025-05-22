@@ -65,32 +65,57 @@
     <link
       rel="stylesheet"
       href="styles/large.css"
-      media="screen and (min-width: 768px)"
+      media="screen and (min-width: 769px)"
     />
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/behaviors.js" defer></script>
+    <script src="scripts/navigation.js"></script>
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Home</a>
+      <div class="profile">
+        <a href="directory.html" class="logo">
+          <img src="images/logo/logo.webp" alt="Red PyME Logo" height="60" />
+          <span>Red PyME</span>
+        </a>
+
+        <button id="menuButton">&#9776;</button>
+      </div>
+
+      <nav id="mainNav">
+        <a href="directory.html">Home</a>
         <a href="discover.html">Discover</a>
         <a href="directory.html" class="active">Directory</a>
         <a href="join.html">Join</a>
         <a href="about.html">About</a>
         <a href="questions.html">FAQ</a>
       </nav>
+
+      <button id="closeMenu" aria-label="Close menu">✕</button>
     </header>
+
+    <div id="overlay"></div>
 
     <main>
       <h1>Business Directory</h1>
 
       <div class="buttons-container">
-        <button id="gridBtn" aria-label="Grid view">Grid</button>
-        <button id="listBtn" aria-label="List view">List</button>
+        <button id="gridBtn" aria-label="Grid view">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M3 3h7v7H3V3zm0 11h7v7H3v-7zm11-11h7v7h-7V3zm0 11h7v7h-7v-7z"
+            />
+          </svg>
+        </button>
+
+        <button id="listBtn" aria-label="List view">
+          <svg width="" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4 10h16v2H4zm0-6h16v2H4zm0 12h16v2H4z" />
+          </svg>
+        </button>
       </div>
 
       <section id="directory"></section>

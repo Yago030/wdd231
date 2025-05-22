@@ -4,7 +4,7 @@
   --accent-color: #f5e7c1;
   --hover-color: #b66b55;
   --background-color: #fdfcf9;
-  --text-color: #2d2d2d; 
+  --text-color: #2d2d2d;
   --font-title: "Montserrat", sans-serif;
   --font-body: "Roboto", sans-serif;
 }
@@ -42,15 +42,14 @@ a:hover {
   color: var(--hover-color);
 }
 
-.buttons-container{
+.buttons-container {
   display: flex;
-  padding:1rem 0;
+  padding: 1rem 0;
   justify-content: space-around;
 }
 
-
 button {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: white;
   border: none;
   padding: 0.6rem 1rem;
@@ -67,9 +66,20 @@ button.active {
   background-color: var(--accent-color);
   color: var(--primary-color);
   font-weight: bold;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
 }
 
+#overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+
+#overlay.visible {
+  display: block;
+}
 
 #directory {
   display: grid;
@@ -81,7 +91,7 @@ button.active {
 #directory img {
   width: 100%;
   max-width: 400px;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 0.5em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -108,6 +118,16 @@ button.active {
   border-bottom: 1px solid #ccc;
 }
 
+#directory.list section {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+#menuButton {
+  background-color: var(--hover-color);
+  border-radius: 0.2rem;
+  width: 50px;
+}
+
 #directory.list h2 {
   margin: 0;
   font-size: 1.2rem;
@@ -116,4 +136,153 @@ button.active {
 
 #directory.list p {
   margin: 0.2rem 0;
+}
+
+button svg {
+  display: block;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-align: center;
+}
+
+section > .card {
+  background-color: var(--accent-color);
+  padding: 1rem;
+  border-radius: 0.5em;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #directory.list section {
+    padding: 1rem;
+    display: block;
+  }
+  #directory.list section p {
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--primary-color);
+  }
+
+  .logo span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+  }
+
+  .profile .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: rgba(253, 252, 249, 0.95);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 4rem 1rem 1rem;
+    z-index: 15;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: slideFromRight 0.5s ease-out;
+  }
+
+  @keyframes slideFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  nav.open a {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(122, 59, 46, 0.1);
+    transition: all 0.2s ease;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  nav.open a:hover {
+    background-color: rgba(245, 231, 193, 0.8);
+    color: var(--primary-color);
+    padding-left: 2rem;
+  }
+
+  nav.open a:last-child {
+    border-bottom: none;
+  }
+
+  nav.open a.active {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  #closeMenu {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    z-index: 20;
+    cursor: pointer;
+    width: 60px;
+    opacity: 0;
+    transform: translateX(100%);
+    pointer-events: none;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+  }
+
+  body.menu-open #closeMenu {
+    opacity: 1;
+    transform: translateX(0);
+    animation: slideFromRight 0.5s ease-out forwards;
+    animation-delay: 0.3s;
+    pointer-events: auto;
+  }
+
+  button {
+    width: 7rem;
+  }
+  button svg {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
