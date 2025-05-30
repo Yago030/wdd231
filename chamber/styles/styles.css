@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #7a3b2e;
+  --primary-color: #633026;
   --secondary-color: #c2a83e;
   --accent-color: #f5e7c1;
   --hover-color: #b66b55;
@@ -325,6 +325,8 @@ section > .card {
   z-index: 2;
   color: var(--primary-color);
   width: 60%;
+    box-sizing: border-box;
+
 
 }
 
@@ -334,8 +336,8 @@ section > .card {
 }
 
 .cta-button {
-  margin-top: 1rem;
-  padding: 0.6rem 1rem;
+  margin-top: 1.5rem;
+  padding: 0.6rem 0.5rem;
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -650,3 +652,4 @@ section > .card {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
 }
+
