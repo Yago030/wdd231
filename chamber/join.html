@@ -18,10 +18,7 @@
 
     <link rel="icon" href="images/favicon/favicon.png" type="image/x-icon" />
 
-    <meta
-      property="og:title"
-      content="Red PyME San Rafael Business Join"
-    />
+    <meta property="og:title" content="Red PyME San Rafael Business Join" />
     <meta
       property="og:description"
       content="Discover and support local businesses from San Rafael, Mendoza."
@@ -36,10 +33,7 @@
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Red PyME San Rafael Business Join"
-    />
+    <meta name="twitter:title" content="Red PyME San Rafael Business Join" />
     <meta
       name="twitter:description"
       content="Discover and support local businesses from San Rafael, Mendoza."
@@ -98,104 +92,161 @@
 
     <div id="overlay"></div>
 
-   <main>
-    <h1>Join Red PyME San Rafael</h1>
+    <main>
+      <h1>Join Red PyME San Rafael</h1>
 
-    <form method="get" action="thank-you.html" class="membership-form">
-      <label>
-        First Name:
-        <input type="text" name="fname" title="First Name" autocomplete="given-name" required />
-      </label>
-      <label>
-        Last Name:
-        <input type="text" name="lname" title="Last Name" autocomplete="family-name" required />
-      </label>
-      <label>
-        Organization Title:
-        <input type="text" name="orgtitle" title="Organization Title" pattern="[A-Za-z\s-]{7,}" autocomplete="organization-title" />
-      </label>
-      <label>
-        Email:
-        <input type="email" name="email" title="Email Address" placeholder="example@email.com" autocomplete="email" required />
-      </label>
-      <label>
-        Mobile Phone:
-        <input type="tel" name="phone" title="Mobile Number" autocomplete="tel" required />
-      </label>
-      <label>
-        Organization Name:
-        <input type="text" name="orgname" title="Organization Name" autocomplete="organization" required />
-      </label>
-      <label>
-        Membership Level:
-        <select name="membership" required>
-          <option value="np">NP (Non-profit)</option>
-          <option value="bronze">Bronze</option>
-          <option value="silver">Silver</option>
-          <option value="gold">Gold</option>
-        </select>
-      </label>
-      <label>
-        Description:
-        <textarea name="description" title="Organization Description"></textarea>
-      </label>
-      <input type="hidden" name="timestamp" id="timestamp" />
-      <input type="submit" value="Join Now" />
-    </form>
+      <form method="get" action="thank-you.html" class="membership-form">
+        <label>
+          First Name:
+          <input
+            type="text"
+            name="fname"
+            title="First Name"
+            autocomplete="given-name"
+            required
+          />
+        </label>
+        <label>
+          Last Name:
+          <input
+            type="text"
+            name="lname"
+            title="Last Name"
+            autocomplete="family-name"
+            required
+          />
+        </label>
+        <label>
+          Organization Title:
+          <input
+            type="text"
+            name="orgtitle"
+            title="Organization Title"
+            pattern="[A-Za-z\s-]{7,}"
+            autocomplete="organization-title"
+          />
+        </label>
+        <label>
+          Email:
+          <input
+            type="email"
+            name="email"
+            title="Email Address"
+            placeholder="example@email.com"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <label>
+          Mobile Phone:
+          <input
+            type="tel"
+            name="phone"
+            title="Mobile Number"
+            autocomplete="tel"
+            required
+          />
+        </label>
+        <label>
+          Organization Name:
+          <input
+            type="text"
+            name="orgname"
+            title="Organization Name"
+            autocomplete="organization"
+            required
+          />
+        </label>
+        <label>
+          Membership Level:
+          <select name="membership" required>
+            <option value="" disabled selected>
+              Select a membership level
+            </option>
 
-   <section class="membership-cards">
-  <div class="membership-card" id="np">
-    <h3>NP Membership</h3>
-    <a href="#" data-modal="modal-np">View Benefits</a>
-  </div>
-  <div class="membership-card" id="bronze">
-    <h3>Bronze Membership</h3>
-    <a href="#" data-modal="modal-bronze">View Benefits</a>
-  </div>
-  <div class="membership-card" id="silver">
-    <h3>Silver Membership</h3>
-    <a href="#" data-modal="modal-silver">View Benefits</a>
-  </div>
-  <div class="membership-card" id="gold">
-    <h3>Gold Membership</h3>
-    <a href="#" data-modal="modal-gold">View Benefits</a>
-  </div>
-</section>
+            <option value="np">NP (Non-profit)</option>
+            <option value="bronze">Bronze</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+          </select>
+        </label>
+        <label>
+          Description:
+          <textarea
+            name="description"
+            title="Organization Description"
+          ></textarea>
+        </label>
+        <input type="hidden" name="timestamp" id="timestamp" />
+        <input type="submit" value="Join Now" />
+      </form>
 
+      <section class="membership-cards">
+        <div class="membership-card" id="np">
+          <h3>NP Membership</h3>
+          <a href="#" data-modal="modal-np">View Benefits</a>
+        </div>
+        <div class="membership-card" id="bronze">
+          <h3>Bronze Membership</h3>
+          <a href="#" data-modal="modal-bronze">View Benefits</a>
+        </div>
+        <div class="membership-card" id="silver">
+          <h3>Silver Membership</h3>
+          <a href="#" data-modal="modal-silver">View Benefits</a>
+        </div>
+        <div class="membership-card" id="gold">
+          <h3>Gold Membership</h3>
+          <a href="#" data-modal="modal-gold">View Benefits</a>
+        </div>
+      </section>
 
-    <div id="modal-np" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('modal-np')">&times;</span>
-        <h3>NP Benefits</h3>
-        <p>No cost. Ideal for non-profits. Access to events, basic directory listing.</p>
+      <div id="modal-np" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-np')">&times;</span>
+          <h3>NP Benefits</h3>
+          <p>
+            No cost. Ideal for non-profits. Access to events, basic directory
+            listing.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div id="modal-bronze" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('modal-bronze')">&times;</span>
-        <h3>Bronze Benefits</h3>
-        <p>Basic advertising, member-only discounts, priority event access.</p>
+      <div id="modal-bronze" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-bronze')"
+            >&times;</span
+          >
+          <h3>Bronze Benefits</h3>
+          <p>
+            Basic advertising, member-only discounts, priority event access.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div id="modal-silver" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('modal-silver')">&times;</span>
-        <h3>Silver Benefits</h3>
-        <p>Extended directory visibility, event spotlights, training access.</p>
+      <div id="modal-silver" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-silver')"
+            >&times;</span
+          >
+          <h3>Silver Benefits</h3>
+          <p>
+            Extended directory visibility, event spotlights, training access.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div id="modal-gold" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('modal-gold')">&times;</span>
-        <h3>Gold Benefits</h3>
-        <p>Homepage spotlight, full event promotion, business mentoring support.</p>
+      <div id="modal-gold" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-gold')">&times;</span>
+          <h3>Gold Benefits</h3>
+          <p>
+            Homepage spotlight, full event promotion, business mentoring
+            support.
+          </p>
+        </div>
       </div>
-    </div>
-  </main>
-   
+    </main>
+
     <footer class="main-footer">
       <div class="footer-content">
         <img src="images/logo/logo.webp" alt="Red PyME Logo" height="40" />
