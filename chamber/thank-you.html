@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Red PyME San Rafael</title>
+  <meta name="description" content="Thank you for joining Red PyME San Rafael — your connection to the local business network in Mendoza." />
+  <meta name="author" content="Santiago Bergerat" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="images/favicon/favicon.png" type="image/x-icon" />
+
+  <meta property="og:title" content="Thank You | Red PyME San Rafael" />
+  <meta property="og:description" content="You’ve successfully joined Red PyME San Rafael." />
+  <meta property="og:image" content="https://Yago030.github.io/wdd231/chamber/images/og/og-preview.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Thank You | Red PyME San Rafael" />
+  <meta name="twitter:description" content="You’ve successfully joined Red PyME San Rafael." />
+  <meta name="twitter:image" content="https://Yago030.github.io/wdd231/chamber/images/og/og-preview.jpg" />
+
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/large.css" media="screen and (min-width: 769px)" />
+
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/thankyou.js" defer></script>
+</head>
+
+
+  <body>
+    <header>
+      <div class="profile">
+        <a href="directory.html" class="logo">
+          <img src="images/logo/logo.webp" alt="Red PyME Logo" height="60" />
+          <span>Red PyME</span>
+        </a>
+
+        <button id="menuButton">&#9776;</button>
+      </div>
+
+      <nav id="mainNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="about.html">About</a>
+        <a href="questions.html">FAQ</a>
+      </nav>
+
+      <button id="closeMenu" aria-label="Close menu">✕</button>
+    </header>
+
+    <div id="overlay"></div>
+
+   <main class="thankyou-container">
+  <h1>Thank You for Joining Red PyME!</h1>
+  <p><strong>First Name:</strong> <span id="out-fname"></span></p>
+  <p><strong>Last Name:</strong> <span id="out-lname"></span></p>
+  <p><strong>Email:</strong> <span id="out-email"></span></p>
+  <p><strong>Phone:</strong> <span id="out-phone"></span></p>
+  <p><strong>Organization Name:</strong> <span id="out-orgname"></span></p>
+  <p><strong>Submitted on:</strong> <span id="out-timestamp"></span></p>
+</main>
+
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img src="images/logo/logo.webp" alt="Red PyME Logo" height="40" />
+        <div class="footer-text">
+          <p>
+            &copy; <span id="year"></span> Red PyME San Rafael · WDD 231 Final
+            Project
+          </p>
+          <p>
+            <span class="last-label">Last updated:</span>
+            <span id="lastModified"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

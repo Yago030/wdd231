@@ -207,3 +207,11 @@ nav > a:hover::after {
     max-width: 55%;
   }
 }
+
+
+/****** members cards **********/
+
+.membership-cards {
+    flex-direction: row;
+    justify-content: space-around;
+  }
