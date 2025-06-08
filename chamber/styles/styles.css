@@ -270,7 +270,6 @@ section > .card:hover {
     width: 60px;
     opacity: 0;
     transform: translateX(100%);
-    pointer-events: none;
     font-size: 2rem;
     font-weight: bold;
     border-radius: 0.5rem;
@@ -282,7 +281,6 @@ section > .card:hover {
     transform: translateX(0);
     animation: slideFromRight 0.5s ease-out forwards;
     animation-delay: 0.3s;
-    pointer-events: auto;
   }
 
   button {
@@ -829,4 +827,77 @@ section > .card:hover {
 }
 .thankyou-container p {
   margin: 0.5rem 0;
+}
+
+
+
+/****** discover section ***/
+.places-grid {
+  display: grid;
+  grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8";
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.place-card {
+  background: #FAF9F6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.place-card h3 {
+  color: #7B1E3B;
+  margin-bottom: 0.5rem;
+}
+
+.place-card figure {
+  margin: 0;
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.place-card address {
+  font-style: normal;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.place-card p {
+  color: #2E2E2E;
+}
+
+
+@media screen and (min-width: 641px) {
+  .places-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "item1 item2"
+      "item3 item4"
+      "item5 item6"
+      "item7 item8";
+  }
+}
+
+.visitor-message {
+  background-color: var(--accent-color);
+  color: #2E2E2E;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem;
+  text-align: center;
+  font-weight: 500;
 }

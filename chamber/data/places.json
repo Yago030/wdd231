@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Plaza San Martín",
+    "image": "./plaza-san-martin.webp",
+    "address": "Av. San Martín y Chile, San Rafael, Mendoza",
+    "description": "A historic plaza with green areas, monuments, and local events.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Bodega La Abeja",
+    "image": "./bodega.webp",
+    "address": "Av. Hipólito Yrigoyen 1535, San Rafael, Mendoza",
+    "description": "One of the oldest wineries in the region, offering guided tours and tastings.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Cañón del Atuel",
+    "image": "./canion.webp",
+    "address": "Ruta Provincial 173, Valle Grande, Mendoza",
+    "description": "A stunning canyon known for rafting, trekking, and scenic views along the river.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Parque Hipólito Yrigoyen",
+    "image": "./parque.webp",
+    "address": "Av. Hipólito Yrigoyen y Rawson, San Rafael, Mendoza",
+    "description": "Spacious urban park with cultural spaces, playgrounds, and recreational areas.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Museo Ferroviario",
+    "image": "./museo.webp",
+    "address": "Av. Rivadavia 578, San Rafael, Mendoza",
+    "description": "A museum dedicated to the region’s railway history with restored locomotives and exhibitions.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Los Reyunos",
+    "image": "./reyunos.webp",
+    "address": "Embalse Los Reyunos, San Rafael, Mendoza",
+    "description": "A dam and reservoir ideal for kayaking, fishing, and enjoying mountain landscapes.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Catedral San Rafael Arcángel",
+    "image": "./catedral.webp",
+    "address": "Gral. Espejo 125, San Rafael, Mendoza",
+    "description": "Beautiful neo-gothic style cathedral located in the heart of the city.",
+    "link": "javascript:void(0)"
+  },
+  {
+    "name": "Mercado Municipal",
+    "image": "./mercado.webp",
+    "address": "Av. Mitre 60, San Rafael, Mendoza",
+    "description": "A vibrant market offering fresh produce, local crafts, and traditional foods.",
+    "link": "javascript:void(0)"
+  }
+]
