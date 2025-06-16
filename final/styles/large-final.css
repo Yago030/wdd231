@@ -95,3 +95,6 @@
 header .profile {
   border: none;
 }
+
+  .split.reverse .split-text{order:2;}
+  .split.reverse .split-img {order:1;}
