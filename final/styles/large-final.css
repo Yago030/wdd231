@@ -1,0 +1,97 @@
+@media (min-width: 768px) {
+  #menuButton,
+  #overlay {
+    display: none !important;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: none;
+  }
+
+  .profile {
+    border: none;
+    white-space: nowrap;
+    gap: 1rem;
+  }
+  .profile img {
+    height: 1.6rem;
+    object-fit: contain;
+  }
+  .profile span {
+    font-size: clamp(0.9rem, 2.2vw, 1.3rem);
+    line-height: 1.6rem;
+  }
+
+  #mainNav {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    gap: 1.5rem;
+    background: none;
+    padding: 0;
+    height: auto;
+    font-size: clamp(0.8rem, 2.4vw, 1.2rem);
+    justify-content: flex-end;
+  }
+  #mainNav a {
+    color: var(--primary-color);
+    font-size: inherit;
+  }
+  #mainNav a:hover {
+    color: var(--accent-color);
+  }
+  #mainNav a.active {
+    background: none;
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 0;
+    padding: 0 0 0.2rem;
+  }
+
+  #closeButton {
+    display: none;
+  }
+
+  #mainNav a {
+    color: #fff;
+    font-size: inherit;
+  }
+  #mainNav a:hover {
+    color: var(--secondary-color);
+  }
+  #mainNav a.active {
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 0 0 0.2rem;
+  }
+   header{
+    background: rgba(0,0,0,.5);
+  }
+  #mainNav a{
+    color:#fff;
+  }
+  #mainNav a:hover,
+  #mainNav a.active{
+    color:var(--primary-color);
+    border-bottom:2px solid var(--primary-color);
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    max-width: 900px;
+    padding: 3rem 4rem;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: 1.35rem;
+  }
+
+
+}
+header .profile {
+  border: none;
+}
