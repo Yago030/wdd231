@@ -98,3 +98,23 @@ header .profile {
 
   .split.reverse .split-text{order:2;}
   .split.reverse .split-img {order:1;}
+
+
+  @media(min-width:1000px){
+  .faq-list{
+    flex-flow:row wrap;
+    gap:2rem;
+  }
+  .faq-list details{
+    width:calc(50% - 1rem);
+  }
+}
+@media(min-width:1000px){
+  .faq-list{
+    flex-flow:row wrap;
+    gap:2rem;
+  }
+  .faq-list details{
+    width:calc(50% - 1rem);
+  }
+}
