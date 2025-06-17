@@ -9,16 +9,19 @@
     align-items: center;
     justify-content: space-between;
     backdrop-filter: none;
+    padding: 0rem 1rem;
   }
 
   .profile {
     border: none;
     white-space: nowrap;
-    gap: 1rem;
+    margin-top: -4px;
   }
   .profile img {
     height: 1.6rem;
     object-fit: contain;
+    width: 60pxpx;
+    height: 60px;
   }
   .profile span {
     font-size: clamp(0.9rem, 2.2vw, 1.3rem);
