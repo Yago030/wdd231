@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Santiago Bergerat" />
+  <meta name="robots" content="index, follow" />
+
+  <meta
+    name="description"
+    content="Explorá las rutas más espectaculares de San Rafael: Cañón del Atuel, Los Reyunos, viñedos y más. Planificá tu recorrido con consejos y mapas."
+  />
+  <meta
+    name="keywords"
+    content="San Rafael, rutas escénicas, turismo, Cañón del Atuel, Los Reyunos, Mendoza, viñedos, viaje, guía de rutas"
+  />
+
+  <meta property="og:title" content="Rutas de San Rafael | Descubre paisajes únicos" />
+  <meta
+    property="og:description"
+    content="Recorré San Rafael con nuestras rutas panorámicas, mapas y consejos de viaje. Naturaleza, aventura y viñedos en cada kilómetro."
+  />
+    <meta property="og:image" content="images/og-image.png" />
+  <meta property="og:url" content="https://yago030.github.io/final/routes.html" />
+  <meta property="og:type" content="website" />
+
+  <title>Rutas | Descubre San Rafael</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/large-final.css" media="(min-width: 768px)" />
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/routes.js" defer></script>
+</head>
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="images/logo.png"
+          alt="Logo Descubre San Rafael"
+          width="50"
+          height="50"
+        />
+        <span>Descubre San Rafael</span>
+        <button id="menuButton" aria-label="Abrir menú">&#9776;</button>
+      </div>
+
+      <nav id="mainNav">
+        <button id="closeButton" aria-label="Cerrar menú">✖</button>
+        <a href="index.html">Inicio</a>
+        <a href="events.html">Eventos</a>
+        <a href="routes.html">Rutas</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+    </header>
+
+    <div id="overlay"></div>
+    <main>
+      <section class="hero">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <h1>Descubre San Rafael</h1>
+          <p>
+            Explorá eventos únicos, rutas increíbles y la cultura mendocina.
+          </p>
+
+          <div class="hero-btns">
+            <a href="events.html" class="hero-btn">Ver eventos</a>
+            <a href="routes.html" class="hero-btn secondary">Recorridos</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="intro" class="container">
+        <div class="intro-line"></div>
+
+        <h2>Rutas escénicas para descubrir San Rafael</h2>
+
+        <p>
+          Desde el imponente Cañón del Atuel hasta los tranquilos viñedos del
+          sur, San Rafael ofrece caminos donde cada kilómetro regala una postal
+          diferente. Paisajes montañosos, espejos de agua turquesa y pueblos con
+          identidad te esperan en cada curva.
+        </p>
+
+        <p>
+          Armamos recorridos con distancias, tiempos estimados y consejos
+          útiles: qué llevar, cuándo salir y qué evitar según el clima. Si vas
+          por tu cuenta o en tour, planificá con confianza.
+        </p>
+
+        <div class="intro-line"></div>
+      </section>
+
+<section class="container" id="routes-section">
+  <h2 class="section-title">Rutas destacadas desde el Kilómetro 0</h2>
+
+  <div id="routes-container" class="routes-grid">
+  </div>
+
+  <div id="routes-pagination" class="pagination-controls">
+  </div>
+</section>
+
+
+
+
+      <section id="cta-final">
+        <div class="cta-wrapper">
+          <h2>¿Listo para recorrer las rutas de San Rafael?</h2>
+          <p>
+            Explorá paisajes únicos, seguí nuestros mapas interactivos y
+            descubrí paradas imperdibles en cada recorrido.
+          </p>
+          <a href="routes.html" class="cta-btn-big">Ver rutas</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner container">
+        <div class="footer-brand">
+          <img
+            src="images/logo.png"
+            alt="Logo Descubre San Rafael"
+            width="48"
+            height="48"
+          />
+          <span>Descubre San Rafael</span>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="events.html">Eventos</a></li>
+          <li><a href="routes.html">Rutas</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+
+        <a
+          class="footer-map"
+          href="https://www.google.com/maps/place/Km+0+San+Rafael/@-34.614811,-68.330271,17z"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M12 21s8-4.5 8-11a8 8 0 1 0-16 0c0 6.5 8 11 8 11z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Kilómetro 0</span>
+        </a>
+      </div>
+
+      <p class="copyright">
+        &copy; 2025 Descubre San Rafael | Diseño S. Bergerat
+      </p>
+    </footer>
+  </body>
+</html>

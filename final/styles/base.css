@@ -727,3 +727,142 @@ header .profile span,
     padding: 1.5rem 0 1rem;
   }
 }
+
+
+
+#events-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin: 3rem auto;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem 1.6rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s, box-shadow 0.25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.event-card h3 {
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  margin-bottom: 0.7rem;
+}
+
+.event-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  color: var(--text-color);
+}
+
+.paginator {
+  margin: 2rem auto 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.paginator button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-weight: 700;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.25s;
+}
+
+.paginator button:hover {
+  background: var(--accent-color);
+}
+
+#routes-section {
+  margin-block: 4rem;
+  text-align: center;
+}
+
+#routes-section .section-title {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+.routes-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: 2rem;
+}
+
+.route-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.8rem 1.4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.route-card:hover {
+  transform: translateY(-6px);
+}
+
+.route-card h3 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.route-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.4rem 0;
+  color: var(--text-color);
+}
+
+.route-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  margin-top: 1rem;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pagination-controls button {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.pagination-controls button:hover {
+  background: var(--accent-color);
+}

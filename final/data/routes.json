@@ -1,0 +1,274 @@
+{
+  "destinations": [
+    {
+      "name": "Cañón del Atuel",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.67805825878905!3d-34.99582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e8c7b6b2a3c%3A0x9a8b7c6d2e4f1b3a!2sCa%C3%B1%C3%B3n%20del%20Atuel%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9958281!2d-68.6780583!5e0!3m2!1sen!2sus!4v1731979200000' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 40,
+      "travel_time": "45 minutes",
+      "recommended_vehicle": "4x4 or standard car",
+      "zone_recommendations": "Bring sunscreen, water, and comfortable shoes. Summer (Dec-Feb) has stronger rapids due to snowmelt. Check weather for potential road closures in winter.",
+      "activities": ["Rafting", "Kayaking", "Trekking", "Mountain biking", "Zip-lining"]
+    },
+    {
+      "name": "Bodega La Abeja",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.35005825878905!3d-34.61782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f5c2a3b4c5d%3A0x7b9c8d5e3f4a2b6c!2sBodega%20La%20Abeja%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6158281!2d-68.3400583!5e0!3m2!1sen!2sus!4v1731979200001' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 2,
+      "travel_time": "5 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Book tours in advance during peak season (Jan-Feb). Casual attire is fine. Bring a designated driver or join a guided tour to avoid driving after tastings.",
+      "activities": ["Wine tasting", "Winery tour", "Historical tour"]
+    },
+    {
+      "name": "Bodega Bianchi",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.37005825878905!3d-34.62782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f6d3b4c5e7f%3A0x8a9d7e6f4a5b3c7d!2sBodega%20Bianchi%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6278281!2d-68.3600583!5e0!3m2!1sen!2sus!4v1731979200002' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 5,
+      "travel_time": "10 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Reserve tours in advance, especially for groups. Ideal for families, as some tours are kid-friendly with activities like painting bottle labels.",
+      "activities": ["Wine tasting", "Winery tour", "Food pairings", "Biking through vineyards"]
+    },
+    {
+      "name": "Los Reyunos Dam",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.68005825878905!3d-34.98582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9d8b7c6f9a%3A0x9b8e9f7a5b6c4d8e!2sLos%20Reyunos%20Dam%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9858281!2d-68.6800583!5e0!3m2!1sen!2sus!4v1731979200003' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 35,
+      "travel_time": "40 minutes",
+      "recommended_vehicle": "Standard car",
+      "zone_recommendations": "Bring water and snacks. Check for guided tour schedules with operators like Kaike Turismo Aventura. Suitable for families.",
+      "activities": ["Kayaking", "Horseback riding", "Zip-lining", "Catamaran tour", "Fishing"]
+    },
+    {
+      "name": "Valle Grande Reservoir",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.69005825878905!3d-35.00582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e8e9b7d6f9b%3A0x9c8f9f8b6c7d4e9f!2sValle%20Grande%20Reservoir%2C%20Mendoza%2C%20Argentina!3m2!1d-35.0058281!2d-68.6900583!5e0!3m2!1sen!2sus!4v1731979200004' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 45,
+      "travel_time": "50 minutes",
+      "recommended_vehicle": "4x4 or standard car",
+      "zone_recommendations": "Wear sturdy shoes for rocky terrain. Book adventure tours in advance (e.g., with Sport Star Rafting). Summer is best for water sports.",
+      "activities": ["Rafting", "Canoeing", "Zip-lining", "Climbing", "Cool River"]
+    },
+    {
+      "name": "El Nihuil Reservoir",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.67005825878905!3d-35.01582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9f9b7e6f9c%3A0x9d8f9f9c6d7e4f9a!2sEl%20Nihuil%20Reservoir%2C%20Mendoza%2C%20Argentina!3m2!1d-35.0158281!2d-68.6700583!5e0!3m2!1sen!2sus!4v1731979200005' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 75,
+      "travel_time": "1 hour 10 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Bring plenty of water and sun protection. Ideal for fishing and nature lovers. Check road conditions in winter.",
+      "activities": ["Fishing", "Windsurfing", "Kayaking", "Trekking"]
+    },
+    {
+      "name": "Laberinto de Borges",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.36005825878905!3d-34.63782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f7a4b5c6e7d%3A0x8b9d7e7f5a6c3d8e!2sLaberinto%20de%20Borges%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6378281!2d-68.3500583!5e0!3m2!1sen!2sus!4v1731979200006' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 22,
+      "travel_time": "25 minutes",
+      "recommended_vehicle": "Standard car",
+      "zone_recommendations": "Contact via WhatsApp for schedules. Family-friendly with restaurants and playgrounds on-site.",
+      "activities": ["Walking tour", "Sightseeing", "Literary-themed tour"]
+    },
+    {
+      "name": "Yancanelo Olive Oil Factory",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.34005825878905!3d-34.62782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f8b5c6d7f8e%3A0x9c8e9f8a6b7d4e9f!2sYancanelo%20Olive%20Oil%20Factory%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6278281!2d-68.3400583!5e0!3m2!1sen!2sus!4v1731979200007' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 3,
+      "travel_time": "8 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Call ahead for tour availability. Great for food enthusiasts. Combine with winery visits for a full day.",
+      "activities": ["Olive oil tasting", "Factory tour"]
+    },
+    {
+      "name": "Bodega Alfredo Roca",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.38005825878905!3d-34.64782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f9c6d7e8f9a%3A0x9d8f9f9b7c8e5f9a!2sBodega%20Alfredo%20Roca%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6478281!2d-68.3700583!5e0!3m2!1sen!2sus!4v1731979200008' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 7,
+      "travel_time": "12 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Book same-day tastings via WhatsApp. Family-run, so expect a personal experience. Avoid driving after tastings.",
+      "activities": ["Wine tasting", "Winery tour", "Empanada tasting"]
+    },
+    {
+      "name": "Villa 25 de Mayo",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.65005825878905!3d-34.97782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e7a8b9c6f9b%3A0x9e8f9f7c6d9e5f9b!2sVilla%2025%20de%20Mayo%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9778281!2d-68.6500583!5e0!3m2!1sen!2sus!4v1731979200009' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 20,
+      "travel_time": "25 minutes",
+      "recommended_vehicle": "Standard car",
+      "zone_recommendations": "Try local tortafritas. Ideal for a relaxed visit. Combine with nearby winery or dam tours.",
+      "activities": ["Historical tour", "Food tasting"]
+    },
+    {
+      "name": "Espacio Funckenhausen",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.39005825878905!3d-34.65782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f8d7c9e6f9c%3A0x9f8f9f8d7e9f5f9c!2sEspacio%20Funckenhausen%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6578281!2d-68.3800583!5e0!3m2!1sen!2sus!4v1731979200010' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 10,
+      "travel_time": "15 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Book lunch reservations. Great for food and wine lovers. Combine with nearby winery tours.",
+      "activities": ["Wine tasting", "Winery lunch", "Vineyard tour"]
+    },
+    {
+      "name": "Bodega Suter",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.40005825878905!3d-34.66782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f9e8c9f6f9d%3A0xa08f9f9e8f9f5f9d!2sBodega%20Suter%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6678281!2d-68.3900583!5e0!3m2!1sen!2sus!4v1731979200011' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 6,
+      "travel_time": "10 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Check for sparkling wine tours. Close to town, so easy to combine with city activities.",
+      "activities": ["Wine tasting", "Winery tour"]
+    },
+    {
+      "name": "Salinas del Diamante",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.70005825878905!3d-35.02582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9f9c7f6f9e%3A0xa18f9f9f9f9f5f9e!2sSalinas%20del%20Diamante%2C%20Mendoza%2C%20Argentina!3m2!1d-35.0258281!2d-68.7000583!5e0!3m2!1sen!2sus!4v1731979200012' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 60,
+      "travel_time": "1 hour",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Bring water and sunscreen. Remote area with no facilities, so plan accordingly.",
+      "activities": ["Sightseeing", "Photography"]
+    },
+    {
+      "name": "Las Leñas Ski Resort",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-70.08005825878905!3d-35.14582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e7a9c8f6f9f%3A0xa28f9f7a9f8f5f9f!2sLas%20Le%C3%B1as%2C%20Mendoza%2C%20Argentina!3m2!1d-35.1458281!2d-70.0800583!5e0!3m2!1sen!2sus!4v1731979200013' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 200,
+      "travel_time": "2 hours 30 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Best in winter (Jul-Aug) for skiing. Summer offers mountain biking and trekking. Book accommodations early.",
+      "activities": ["Skiing", "Snowboarding", "Mountain biking", "Trekking", "Horseback riding"]
+    },
+    {
+      "name": "Cerro Tunduqueral Archaeological Park",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.72005825878905!3d-34.95782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e8a9c7f6f9a%3A0xa38f9f8a9f7f5f9a!2sCerro%20Tunduqueral%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9578281!2d-68.7200583!5e0!3m2!1sen!2sus!4v1731979200014' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 50,
+      "travel_time": "1 hour",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Hire a guide for cave tours. Bring sturdy shoes and water. Ideal for history enthusiasts.",
+      "activities": ["Trekking", "Archaeological tour", "Wildlife observation"]
+    },
+    {
+      "name": "Bodega Iaccarini",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.41005825878905!3d-34.67782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f9f9c8f6f9b%3A0xa48f9f9f9f8f5f9b!2sBodega%20Iaccarini%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6778281!2d-68.4100583!5e0!3m2!1sen!2sus!4v1731979200015' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 8,
+      "travel_time": "15 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Book tours in advance. Combine with other nearby wineries for a full day.",
+      "activities": ["Wine tasting", "Winery tour"]
+    },
+    {
+      "name": "Bodega Jean Rivier",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.42005825878905!3d-34.68782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f7a9c8f6f9c%3A0xa58f9f7a9f8f5f9c!2sBodega%20Jean%20Rivier%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6878281!2d-68.4200583!5e0!3m2!1sen!2sus!4v1731979200016' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 9,
+      "travel_time": "15 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Check for tour schedules. Ideal for boutique wine enthusiasts.",
+      "activities": ["Wine tasting", "Winery tour"]
+    },
+    {
+      "name": "El Tigre Dam",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.71005825878905!3d-34.96782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e8b9c7f6f9d%3A0xa68f9f8b9f7f5f9d!2sEl%20Tigre%20Dam%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9678281!2d-68.7100583!5e0!3m2!1sen!2sus!4v1731979200017' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 30,
+      "travel_time": "35 minutes",
+      "recommended_vehicle": "Standard car",
+      "zone_recommendations": "Bring water and snacks. Ideal for a quick visit or combined with other dams.",
+      "activities": ["Sightseeing", "Fishing"]
+    },
+    {
+      "name": "Agua de Toro Dam",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.73005825878905!3d-34.94782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9c9c7f6f9e%3A0xa78f9f9c9f7f5f9e!2sAgua%20de%20Toro%20Dam%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9478281!2d-68.7300583!5e0!3m2!1sen!2sus!4v1731979200018' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 45,
+      "travel_time": "50 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Remote area, so bring supplies. Check road conditions before travel.",
+      "activities": ["Sightseeing", "Fishing"]
+    },
+    {
+      "name": "El Sosneado",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-69.08005825878905!3d-35.06582809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e7a9c8f6f9f%3A0xa88f9f7a9f8f5f9f!2sEl%20Sosneado%2C%20Mendoza%2C%20Argentina!3m2!1d-35.0658281!2d-69.0800583!5e0!3m2!1sen!2sus!4v1731979200019' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 150,
+      "travel_time": "2 hours",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Hire a guide for cave treks. Bring helmets and torches. Not suitable for young children.",
+      "activities": ["Trekking", "Cave exploration"]
+    },
+    {
+      "name": "Bodega Labiano",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.43005825878905!3d-34.69782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f8b9c7f6f9f%3A0xa98f9f8b9f7f5f9f!2sBodega%20Labiano%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6978281!2d-68.4300583!5e0!3m2!1sen!2sus!4v1731979200020' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 10,
+      "travel_time": "15 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Book tours in advance. Great for boutique wine experiences.",
+      "activities": ["Wine tasting", "Winery tour"]
+    },
+    {
+      "name": "Bodega Simonassi Lyon",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.44005825878905!3d-34.70782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f9c9c7f6f9a%3A0xaa8f9f9c9f7f5f9a!2sBodega%20Simonassi%20Lyon%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.7078281!2d-68.4400583!5e0!3m2!1sen!2sus!4v1731979200021' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 12,
+      "travel_time": "18 minutes",
+      "recommended_vehicle": "Bicycle or car",
+      "zone_recommendations": "Check tour availability. Combine with other winery visits.",
+      "activities": ["Wine tasting", "Winery tour"]
+    },
+    {
+      "name": "Parque Central de los Niños",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.32005825878905!3d-34.60782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f7a9c7f6f9b%3A0xab8f9f7a9f7f5f9b!2sParque%20Central%20de%20los%20Ni%C3%B1os%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6078281!2d-68.3200583!5e0!3m2!1sen!2sus!4v1731979200022' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 1,
+      "travel_time": "3 minutes",
+      "recommended_vehicle": "Walking or bicycle",
+      "zone_recommendations": "Family-friendly with playgrounds. Ideal for a quick visit or picnic.",
+      "activities": ["Family activities", "Picnicking"]
+    },
+    {
+      "name": "Paseo de los Lagos",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.31005825878905!3d-34.59782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f8b9c7f6f9c%3A0xac8f9f8b9f7f5f9c!2sPaseo%20de%20los%20Lagos%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.5978281!2d-68.3100583!5e0!3m2!1sen!2sus!4v1731979200023' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 2,
+      "travel_time": "5 minutes",
+      "recommended_vehicle": "Walking or bicycle",
+      "zone_recommendations": "Great for evening strolls. Family-friendly with scenic views.",
+      "activities": ["Walking", "Sightseeing"]
+    },
+    {
+      "name": "Turismo Aventura Sierra Negra 4x4",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.74005825878905!3d-34.98782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9c9c7f6f9f%3A0xad8f9f9c9f7f5f9f!2sSierra%20Negra%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9878281!2d-68.7400583!5e0!3m2!1sen!2sus!4v1731979200024' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 40,
+      "travel_time": "45 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Book tours with operators like Sierra Negra. Wear sturdy clothing for off-road adventures.",
+      "activities": ["4x4 tours", "Adventure tourism"]
+    },
+    {
+      "name": "Bruni Aventura",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.75005825878905!3d-34.99782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e7a9c7f6f9a%3A0xae8f9f7a9f7f5f9a!2sValle%20Grande%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9978281!2d-68.7500583!5e0!3m2!1sen!2sus!4v1731979200025' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 45,
+      "travel_time": "50 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Book adventure tours in advance. Wear appropriate gear for rafting or climbing.",
+      "activities": ["Rafting", "Climbing", "Adventure tourism"]
+    },
+    {
+      "name": "Aukan Expediciones",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.76005825878905!3d-35.00782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e8b9c7f6f9b%3A0xaf8f9f8b9f7f5f9b!2sCañón%20del%20Atuel%2C%20Mendoza%2C%20Argentina!3m2!1d-35.0078281!2d-68.7600583!5e0!3m2!1sen!2sus!4v1731979200026' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 40,
+      "travel_time": "45 minutes",
+      "recommended_vehicle": "4x4",
+      "zone_recommendations": "Book with Aukan for guided rafting or trekking. Bring water and sunscreen.",
+      "activities": ["Rafting", "Trekking", "Kayaking"]
+    },
+    {
+      "name": "Turismo El Cristo",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212915.72693756306!2d-68.77005825878905!3d-34.97782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b4e9c9c7f6f9c%3A0xb08f9f9c9f7f5f9c!2sEl%20Cristo%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.9778281!2d-68.7700583!5e0!3m2!1sen!2sus!4v1731979200027' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 35,
+      "travel_time": "40 minutes",
+      "recommended_vehicle": "Standard car",
+      "zone_recommendations": "Check for historical tours. Combine with nearby dams or wineries.",
+      "activities": ["Historical tour", "Sightseeing"]
+    },
+    {
+      "name": "Museo Ferroviario",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.30005825878905!3d-34.58782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f7a9c7f6f9d%3A0xb18f9f7a9f7f5f9d!2sMuseo%20Ferroviario%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.5878281!2d-68.3000583!5e0!3m2!1sen!2sus!4v1731979200028' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 3,
+      "travel_time": "7 minutes",
+      "recommended_vehicle": "Walking or bicycle",
+      "zone_recommendations": "Great for history buffs. Close to downtown, so easy to combine with other city activities.",
+      "activities": ["Museum tour", "Historical exploration"]
+    },
+    {
+      "name": "Algodon Wine Estates",
+      "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26375.72693756306!2d-68.45005825878905!3d-34.71782809999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x967b3f4f0f6b1b7b%3A0x5c8e8f4e1b2a3c4d!2sPlaza%20San%20Mart%C3%ADn%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.6177!2d-68.3301!4m5!1s0x967b3f9c9c7f6f9e%3A0xb28f9f9c9f7f5f9e!2sAlgodon%20Wine%20Estates%2C%20San%20Rafael%2C%20Mendoza%2C%20Argentina!3m2!1d-34.7178281!2d-68.4500583!5e0!3m2!1sen!2sus!4v1731979200029' width='300' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+      "distance_km": 15,
+      "travel_time": "20 minutes",
+      "recommended_vehicle": "Car",
+      "zone_recommendations": "Book tastings and dining in advance. Upscale experience with golf course access.",
+      "activities": ["Wine tasting", "Winery tour", "Dining", "Golf"]
+    }
+  ]
+}
