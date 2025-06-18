@@ -81,6 +81,14 @@
   }
 }
 
+  .contact-wrapper {
+    padding: 1.5rem;
+  }
+
+  #contact-form {
+    gap: 1.2rem;
+  }
+
 @media (min-width: 992px) {
   .hero-content {
     max-width: 900px;

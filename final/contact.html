@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Santiago Bergerat" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="description"
+      content="Contactá con el equipo de Descubre San Rafael. Respondemos consultas sobre rutas, eventos y actividades para planificar tu visita."
+    />
+    <meta
+      name="keywords"
+      content="Contacto San Rafael, turismo Mendoza, rutas, eventos, asesoramiento, información turística"
+    />
+
+    <meta property="og:title" content="Contacto | Descubre San Rafael" />
+    <meta
+      property="og:description"
+      content="¿Tenés dudas o querés más información sobre San Rafael? Escribinos y te ayudamos a organizar tu viaje."
+    />
+    <meta property="og:image" content="images/og-contacto.png" />
+    <meta
+      property="og:url"
+      content="https://yago030.github.io/final/contact.html"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Contacto | Descubre San Rafael</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="styles/large-final.css"
+      media="(min-width: 768px)"
+    />
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="images/logo.png"
+          alt="Logo Descubre San Rafael"
+          width="50"
+          height="50"
+        />
+        <span>Descubre San Rafael</span>
+        <button id="menuButton" aria-label="Abrir menú">&#9776;</button>
+      </div>
+
+      <nav id="mainNav">
+        <button id="closeButton" aria-label="Cerrar menú">✖</button>
+        <a href="index.html">Inicio</a>
+        <a href="events.html">Eventos</a>
+        <a href="routes.html">Rutas</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+    </header>
+
+    <div id="overlay"></div>
+
+    <main>
+      <section class="hero">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <h1>¿Tenés consultas o sugerencias?</h1>
+          <p>
+            Estamos para ayudarte a planificar tu experiencia en San Rafael.
+          </p>
+
+          <div class="hero-btns">
+            <a href="#formulario-contacto" class="hero-btn">Escribir ahora</a>
+            <a href="routes.html" class="hero-btn secondary">Ver rutas</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="intro" class="container">
+        <div class="intro-line"></div>
+
+        <h2>Estamos para ayudarte</h2>
+
+        <p>
+          ¿Querés saber más sobre una ruta? ¿Tenés dudas sobre eventos o buscás
+          recomendaciones personalizadas? Completá el formulario y nos pondremos
+          en contacto a la brevedad.
+        </p>
+
+        <p>
+          También podés escribirnos si encontraste algún error en la información
+          o si tenés una propuesta para sumar actividades a la guía.
+        </p>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+          <div class="intro-line"></div>
+          <h2>Contactanos</h2>
+          <p>
+            Dejanos tu mensaje y te responderemos a la brevedad. También podés
+            sugerir rutas, eventos o mejoras para el sitio.
+          </p>
+
+          <form
+            id="contact-form"
+            action="form-action.html"
+            method="get"
+            novalidate
+          >
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ej: Juan Pérez"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ej: juan@mail.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="motivo">Motivo de contacto</label>
+              <select id="motivo" name="motivo" required>
+                <option value="">Seleccionar...</option>
+                <option value="consulta">Consulta general</option>
+                <option value="ruta">Sugerencia de ruta</option>
+                <option value="evento">Sugerencia de evento</option>
+                <option value="feedback">Propuesta o mejora</option>
+                <option value="error">Reportar error</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Escribí tu mensaje aquí..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group form-check">
+              <input
+                type="checkbox"
+                id="consentimiento"
+                name="consentimiento"
+                required
+              />
+              <label for="consentimiento">
+                Acepto el uso de mis datos según la
+                <a href="https://policies.google.com/privacy?hl=es" target="_blank">política de privacidad</a>.
+              </label>
+            </div>
+
+            <button type="submit" class="cta-btn">Enviar mensaje</button>
+          </form>
+          <div class="intro-line"></div>
+        </div>
+      </section>
+
+      <section id="cta-final">
+        <div class="cta-wrapper">
+          <h2>¿Listo para planificar tu visita?</h2>
+          <p>
+            Mandanos tus dudas y te ayudamos a organizar un viaje inolvidable
+            por el sur de Mendoza.
+          </p>
+          <a href="#formulario-contacto" class="cta-btn-big">Contactar ahora</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner container">
+        <div class="footer-brand">
+          <img
+            src="images/logo.png"
+            alt="Logo Descubre San Rafael"
+            width="48"
+            height="48"
+          />
+          <span>Descubre San Rafael</span>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Eventos</a></li>
+          <li><a href="routes.html">Rutas</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+
+        <a
+          class="footer-map"
+          href="https://www.google.com/maps/place/Km+0+San+Rafael"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M12 21s8-4.5 8-11a8 8 0 1 0-16 0c0 6.5 8 11 8 11z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Kilómetro 0</span>
+        </a>
+      </div>
+
+      <p class="copyright">
+        &copy; 2025 Descubre San Rafael | Diseño S. Bergerat
+      </p>
+    </footer>
+  </body>
+</html>

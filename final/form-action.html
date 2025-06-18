@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario enviado</title>
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Gracias por contactarnos</h1>
+    <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Motivo:</strong> <span id="motivo"></span></p>
+    <p><strong>Mensaje:</strong> <span id="mensaje"></span></p>
+    <p><strong>¿Desea recibir novedades?:</strong> <span id="novedades"></span></p>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById("nombre").textContent = params.get("nombre") || "-";
+    document.getElementById("email").textContent = params.get("email") || "-";
+    document.getElementById("motivo").textContent = params.get("motivo") || "-";
+    document.getElementById("mensaje").textContent = params.get("mensaje") || "-";
+
+    const novedades = localStorage.getItem("novedades") === "true" ? "Sí" : "No";
+    document.getElementById("novedades").textContent = novedades;
+  </script>
+</body>
+</html>
