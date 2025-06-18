@@ -1,0 +1,152 @@
+[
+  {
+    "tipo": "Cultura",
+    "titulo": "Expo de Moda y Diseño",
+    "fecha": "2025-06-14",
+    "hora": "16:00",
+    "lugar": "Centro de Congresos y Exposiciones, Luis Tirasso 1025",
+    "entrada": "gratuita (donación de alimento)",
+    "ambito": "público",
+    "descripcion": "Muestra de emprendimientos, diseñadores y artistas en vivo."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Paseo de Arte Los Corralitos",
+    "fecha": "2025-06-14",
+    "hora": "11:00–18:00",
+    "lugar": "Los Corralitos, San Rafael",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Productos artesanales e intervenciones artísticas en vivo."
+  },
+  {
+    "tipo": "Deporte",
+    "titulo": "Juegos Sanmartinianos 2025",
+    "fecha": "meses de junio-julio",
+    "hora": "varias",
+    "lugar": "San Rafael (municipal)",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Competiciones deportivas para jóvenes y adultos."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Presentación literaria: 'En la ruta' – Ary Malaver",
+    "fecha": "2025-06",
+    "hora": "20:00",
+    "lugar": "Biblioteca Pública General San Martín, Ciudad de Mendoza",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Lanzamiento de ficción contemporánea."
+  },
+  {
+    "tipo": "Música",
+    "titulo": "La Lucía: Gira Amoría II",
+    "fecha": "2025-06",
+    "hora": "18:00",
+    "lugar": "Espacio Cultural Julio Le Parc, Guaymallén",
+    "entrada": "pagada (~ARS 15 000)",
+    "ambito": "pago",
+    "descripcion": "Concierto edición solsticio."
+  },
+  {
+    "tipo": "Música",
+    "titulo": "Show de Cantantes en Sala Tito Francia",
+    "fecha": "2025-06-19",
+    "hora": "21:00",
+    "lugar": "Espacio Cultural Julio Le Parc, Guaymallén",
+    "entrada": "pagada",
+    "ambito": "pago",
+    "descripcion": "Noche de música en vivo."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Fin de semana XL – Agenda cultural",
+    "fecha": "2025-06-14",
+    "hora": "desde 11:00",
+    "lugar": "San Rafael (varios puntos)",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Actividades culturales y recreativas en toda la ciudad."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Fiesta de San Juan",
+    "fecha": "2025-06-24",
+    "hora": "20:00",
+    "lugar": "Barrios y plazas locales",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Fogatas, tradiciones y festividades del solsticio."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Marcha del Orgullo LGBT Mendoza",
+    "fecha": "finales junio-principios julio",
+    "hora": "17:00 aprox.",
+    "lugar": "Peatonal Sarmiento y San Martín, Ciudad de Mendoza",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Manifestación y lectura en Plaza Independencia." 
+  },
+  {
+    "tipo": "Festival",
+    "titulo": "Fiesta Nacional de la Vendimia",
+    "fecha": "marzo 2025 (pero repercusiones)",
+    "hora": "varias",
+    "lugar": "Teatro Frank Romero Day, San Rafael",
+    "entrada": "paga",
+    "ambito": "público",
+    "descripcion": "Celebración cultural con danza, música y elección de reina."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Paseo de Catamarán y playas",
+    "fecha": "verano (diciembre-febrero)",
+    "hora": "todo el día",
+    "lugar": "Embalse Los Reyunos",
+    "entrada": "pagada/según operadora",
+    "ambito": "pago",
+    "descripcion": "Excursión y actividades acuáticas."
+  },
+  {
+    "tipo": "Deporte",
+    "titulo": "Pentatlón Aventura en Cañón del Atuel",
+    "fecha": "todo el año",
+    "hora": "previa reserva",
+    "lugar": "Cañón del Atuel",
+    "entrada": "pagada",
+    "ambito": "pago",
+    "descripcion": "Rafting, ciclismo, escalada y más."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Noches de cine en el parque",
+    "fecha": "verano 2025",
+    "hora": "21:00",
+    "lugar": "Parques municipales",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Proyecciones al aire libre."
+  },
+  {
+    "tipo": "Música",
+    "titulo": "Mendo‑Rock 2025",
+    "fecha": "verano",
+    "hora": "noche",
+    "lugar": "Espacio abierto en Mendoza",
+    "entrada": "paga",
+    "ambito": "público",
+    "descripcion": "Festival de rock con bandas locales y nacionales."
+  },
+  {
+    "tipo": "Cultura",
+    "titulo": "Americanto – Encuentro musical",
+    "fecha": "verano",
+    "hora": "tarde-noche",
+    "lugar": "Foros culturales",
+    "entrada": "gratuita",
+    "ambito": "público",
+    "descripcion": "Música folklórica y latinoamericana."
+  }
+]
